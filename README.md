@@ -17,6 +17,3 @@ Read more at http://www.centurylinklabs.com/ambassadors-how-to-link-docker-conta
 
 	# on the remote host, you can set up another ambassador setting environment variables for each remote port we want to proxy
 	$ docker run -t -i -name mysql_ambassador -expose 3306 -e MYSQL_PORT_3306_TCP=tcp://192.168.1.52:3306 ctlc/ambassador
-
-
-This image is based from the docker-ut as it uses the installed socat (and docker-ut is an otherwise pretty simple busybox image)
