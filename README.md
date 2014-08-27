@@ -7,7 +7,7 @@ Note: Inspired by svendowideit/ambassador, but it is not a Trusted Image and use
 
 Ambassadors are containers who's sole purpose is to help connect containers across multiple hosts.
 
-Read more at http://www.centurylinklabs.com/ambassadors-how-to-link-docker-containers-across-servers
+Read more at http://www.centurylinklabs.com/deploying-multi-server-docker-apps-with-ambassadors/
 
 	# start actual MySQL server
 	$ docker run -d --name mysql ctlc/mysql
